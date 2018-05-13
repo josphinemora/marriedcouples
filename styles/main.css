@@ -1,0 +1,18 @@
+h1 {
+font-family: 'Abril Fatface', cursive;
+text-align: center;
+font-size: 3em;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  padding-left: 15em;
+  padding-right: 15em;
+  text-align: justify;
+}
+
+ul {
+  text-align: right;
+  padding: 3em;
+  font-family: 'Abril Fatface', cursive;
+}

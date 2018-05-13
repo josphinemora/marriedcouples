@@ -1,0 +1,39 @@
+video#bgvid {
+  max-height: 50vh;
+  padding: center;
+  padding: 5em;
+     }
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+  font-size: 3em;
+  }
+
+  p {
+    font-family: 'Raleway', sans-serif;
+    padding-left: 15em;
+    padding-right: 15em;
+    text-align: justify;
+  }
+
+  ul {
+    text-align: right;
+    padding: 2em;
+    font-family: 'Abril Fatface', cursive;
+  }
+
+/*    position: fixed;
+    top: 80%;
+    left: 50%;
+    min-width: 10%;
+    min-height: 10%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; */
