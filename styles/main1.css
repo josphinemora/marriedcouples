@@ -1,30 +1,113 @@
+body {
+
+}
+
+
 h1 {
 font-family: 'Abril Fatface', cursive;
 text-align: center;
 font-size: 3em;
-margin-bottom: 400px;
 }
 
 ul {
   font-family: 'Abril Fatface', cursive;
-  background-color: rgba(255,255, 255, 0.5);
+/*  background-color: rgba(255,255, 255, 0.5); */
   padding: 1em;
   text-align: center;
-  max-width: 100px;
-  margin: 0 100px 5px auto;
-
 }
+
+.choices {
+  position: absolute;
+  bottom : 0px;
+  left : 42px;
+}
+
+.choices ul {
+  list-style-type: none;
+}
+
 
 li {
   background-color: rgba(255,255, 255, 0.5);
   padding: 1em;
   text-align: left;
-  margin: 3px 1000px auto 50px;
   font-family: 'Raleway', sans-serif;
+  margin-bottom: 6px;
 }
 
 p {
   font-family: 'Raleway', sans-serif;
   padding: 1em;
   margin-left: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: rgba(255,255, 255, 0.5);
+  padding: 1em;
+  text-align: center;
+  max-width: 100px;
+  margin: 0 auto 5px auto;
+  position: absolute;
+  bottom: 0;
+  right : 0;
+  padding: 42px
+}
+
+.aller01 {
+  background: rgb(142,192,70) url('images/allé-1.jpg') top center no-repeat;
+  background-size: cover;
+}
+
+.aller02 {
+    background: rgb(142,192,70) url('images/allé-2.jpg') top center no-repeat;
+    background-size: cover;
+}
+
+.aller03 {
+    background: rgb(142,192,70) url('images/allé-3.jpg') top center no-repeat;
+    background-size: cover;
+}
+
+.aller04 {
+    background: rgb(142,192,70) url('images/allé-4.jpg') top center no-repeat;
+    background-size: cover;
+}
+
+.aller05 {
+    background: rgb(142,192,70) url('images/allé-5.jpg') top center no-repeat;
+    background-size: cover;
+}
+
+.aller06 {
+    background: rgb(142,192,70) url('images/allé-6.jpg') top center no-repeat;
+    background-size: cover;
+}
+
+.retour01 {
+  background: rgb(142,192,70) url('images/retour-1.jpg') top center no-repeat;
+  background-size: cover;
+}
+
+.retour02{
+  background: rgb(142,192,70) url('images/retour-2.jpg') top center no-repeat;
+  background-size: cover;
+}
+
+.retour03 {
+  background: rgb(142,192,70) url('images/retour-3.jpg') top center no-repeat;
+  background-size: cover;
+}
+
+.retour04 {
+  background: rgb(142,192,70) url('images/retour-4.jpg') top center no-repeat;
+  background-size: cover;
+}
+
+.retour05 {
+  background: rgb(142,192,70) url('images/retour-5.jpg') top center no-repeat;
+  background-size: cover;
 }

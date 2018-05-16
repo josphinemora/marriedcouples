@@ -35,10 +35,6 @@ img {
 }
 
 body {
-  background-image: url('images/fond.jpg');
-  margin: 0;
-  min-height: 90vh;
-  background-repeat: no-repeat;
-  background-position:top center;
+  background: rgb(142,192,70) url('images/fond.jpg') top center no-repeat;
   background-size: cover;
 }

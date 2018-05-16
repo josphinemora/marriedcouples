@@ -3,7 +3,7 @@ video#bgvid {
   padding: center;
   padding: 5em;
   margin: 0 auto 0 400px;
-     }
+  }
 
 h1 {
   font-family: 'Abril Fatface', cursive;
@@ -37,14 +37,11 @@ h1 {
     margin: 0 auto 20px 1250px;
   }
 
-  body {
-    background-image: url('images/final.jpg');
-    margin: 0;
-    min-height: 10vh;
-    background-repeat: no-repeat;
-    background-position:top center;
+body {
+    background: rgb(123,200,203) url('images/final.jpg') top center no-repeat;
     background-size: cover;
   }
+
 
 /*    position: fixed;
     top: 80%;
