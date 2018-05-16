@@ -2,17 +2,43 @@ h1 {
 font-family: 'Abril Fatface', cursive;
 text-align: center;
 font-size: 3em;
+background-color: rgba(255,255, 255, 0.5);
+padding: 1em;
+text-align: center;
+max-width: 600px;
+margin: 100px auto 10px auto;
 }
 
 p {
   font-family: 'Raleway', sans-serif;
-  padding-left: 15em;
-  padding-right: 15em;
+  padding-left: 30em;
+  padding-right: 30em;
   text-align: justify;
+  background-color: rgba(255,255, 255, 0.5);
+  padding: 4em;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 10px auto;
 }
 
 ul {
-  text-align: right;
-  padding: 3em;
   font-family: 'Abril Fatface', cursive;
+  background-color: rgba(255,255, 255, 0.5);
+  padding: 1em;
+  text-align: center;
+  max-width: 100px;
+  margin: 0 auto 5px auto;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background-image: url('images/fond.jpg');
+  margin: 0;
+  min-height: 90vh;
+  background-repeat: no-repeat;
+  background-position:top center;
+  background-size: cover;
 }
